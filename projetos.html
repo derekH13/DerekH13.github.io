@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DereHenrique</title>
+  <link rel="stylesheet" href="./css/paginas.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<!--fim do google fonts-->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+<!--bootstrap icons-->
+</head>
+<body>
+
+  <header>
+    <div class="interface">
+        <div class="logo">
+            <a href="index.html">
+              Derek <span class="roxo1">Henrique</span> 
+            </a>
+        </div>
+            <nav class="menu-descktop">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    
+                    <li><a href="projetos.html" class="active">Projetos</a></li>
+                </ul>
+            </nav>
+        <div>
+          <a href="#form"><button onclick="botao()" class="btn_all" role="button">Contato</button></a>
+        </div>
+        
+    </div><!--interface-->
+   </header>
+   <div class="interface">
+    <div class="click"> <h1>CLICK NA SETA E VEJA OS MEUS PROJETOS!</h1>
+  
+      </div>
+       
+            <section class="flex">
+              
+              
+                <div id="container">
+                 
+                  <div class="cover">
+
+                    <figure class="front">
+                    <h1>PROJETOS</h1>
+                    <div class="png"><img src="./img/programador.png" alt=""></div>
+                    <img src="./img/proximo.png" alt="" onclick="prox()" class="seta"> 
+                    </figure>
+
+                    <figure class="back">
+                      <h1 style="font-size: 50PX;" class="embreve">EM BREVE!!</h1>
+                      <img src="./img/anterior.png" alt="" onclick="back()" class="seta">
+                    </figure>
+                  </div>
+
+                  <div class="cover1">
+                    <figure class="front">
+                      <h1 style="font-size: 50PX;" class="embreve">EM BREVE!!</h1>
+                      <img src="./img/proximo.png" alt="" onclick="prox1()" class="seta">
+                    </figure>
+
+                    <figure class="back">
+                      <h1 style="font-size: 50PX;" class="embreve">EM BREVE!!</h1>
+                      <img src="./img/anterior.png" alt="" onclick="back1()" class="seta">
+                    </figure>
+
+                  </div><!--cover1-->
+                  
+                  </div><!--container-->
+                 
+        
+      </section>
+  </div>
+
+  <section class="formulario" id="form">
+    <div class="interface">
+      <h2 class="titulo">FALA<SPAN> COMIGO.</SPAN></h2>
+
+      <form action="">
+          <input type="text" name="" id="" placeholder="Seu nome Completo:" required>
+          <input type="text" name="" id="" placeholder="Seu email:" required>
+          <input type="text" name="" id="" placeholder="Seu celular:">
+          <textarea name="" id="" placeholder="Sua mensagem:" required></textarea>
+          <div class="btn-enviar"><input type="submit" value="ENVIAR"></div>
+
+
+      </form>
+    </div>
+</section>
+
+  <footer>
+    <div class="interface">
+      <div class="line-footer">
+        <div class="flex">
+            <div class="logo-footer">
+              <h1>Derek <span style="font-weight: bold;">Henrique</span></h1>
+            </div><!--logo-footer-->
+            <div class="sociais">
+              <a href="https://www.instagram.com/deckin_3/" target="_blank"><button class="sociais1"><i class="bi bi-instagram"></i></button></a>
+              <a href="#"><button class="sociais2"><i class="bi bi-github"></i></i></button></a>
+              <a href="https://www.linkedin.com/in/derek-henrique-0178632b6/ " target="_blank"><button class="sociais3"><i class="bi bi-linkedin"></i></button></a>
+            </div><!--sociais-->
+        </div><!--flex-->
+      </div><!--line-footer-->
+
+      <div class="line-footer border">
+        <p><i class="bi bi-envelope-at-fill"></i><a href="mailto:derek.cbed@outlook.com">derek.cbed@outlook.com</a></p>
+      </div>
+    </div>
+</footer>
+<script src="./js/paginas.js"></script>
+ 
+  </body>
+  </html>
